@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <fieldset>
+            <legend>Sign Up</legend>
+            <form id="form">
+                <div>
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Name (Required)"
+                    />
+                    <span class="alert"></span>
+                </div>
+                <div>
+                    <input
+                        type="text"
+                        id="email"
+                        placeholder="Email (Required)"
+                    />
+                    <span class="alert"></span>
+                </div>
+                <div>
+                    <input
+                        type="number"
+                        id="age"
+                        placeholder="Age (Required)"
+                    />
+                    <span class="alert"></span>
+                </div>
+                <div>
+                    <input
+                        type="text"
+                        id="mobile"
+                        placeholder="Mobile (Required)"
+                    />
+                    <span class="alert"></span>
+                </div>
+                <div class="txt-counter" data-count="0">
+                    <textarea
+                        id="message"
+                        cols="30"
+                        rows="10"
+                        placeholder="Message (Required)"
+                    ></textarea>
+                    <span class="alert"></span>
+                </div>
+                <button role="submit" id="submitBtn">Sign Up</button>
+            </form>
+        </fieldset>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
